@@ -4,7 +4,7 @@ from PIL import Image, ImageTk # Convert JPEG to PNG
 import stepic # type: ignore
 import io
 import os
-from Crypto.Cipher import AES  # type: ignore
+from Crypto.Cipher import AES # type: ignore
 from Crypto.Util.Padding import pad, unpad # type: ignore
 from Crypto.Random import get_random_bytes # type: ignore
 import base64
